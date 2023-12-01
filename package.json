@@ -1,0 +1,19 @@
+{
+  "name": "day-01",
+  "version": "1.0.0",
+  "description": "Day 1: Trebuchet?! -- Advent of code 2023",
+  "main": "trebuchet.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "advent",
+    "js",
+    "jest"
+  ],
+  "author": "Jaume Vidal",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
