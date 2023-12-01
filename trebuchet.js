@@ -54,8 +54,6 @@ function parseValue(value) {
       return '8';
     case 'nine':
       return '9';
-    case 'zero':
-      return '0';
   }
 }
 
