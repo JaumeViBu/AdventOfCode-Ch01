@@ -1,6 +1,6 @@
 # \* ADVENT OF CODE 2023 \*
 
-##Challenge of day 01
+## Challenge of day 01
 
 For this year Advent of Code I will try to apply TDD with JS, using Node and Jest.
 
@@ -25,9 +25,9 @@ All in all, I enjoyed this first one.
 
 ---
 
-##Challenge-Text:
+## Challenge-Text:
 
-###Part 1
+### Part 1
 
 ---
 
