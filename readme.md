@@ -25,6 +25,25 @@ All in all, I enjoyed this first one.
 
 ---
 
+### Run it
+
+It's a node project, so first, make sure to have node in your machine.
+([How to install node](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs))
+
+Before trying to run it, it's necessary to install the packages for it, in this project these are:
+
+- Jest
+
+To install the missing packages, in a terminal being inside the project directory run:
+
+> npm install
+
+To run the tests using jest, in terminal:
+
+> npm test
+
+---
+
 ## Challenge-Text:
 
 ### Part 1
@@ -75,3 +94,7 @@ Equipped with this new information, you now need to find the real first and last
 In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Adding these together produces 281.
 
 What is the sum of all of the calibration values?
+
+---
+
+### [Advent Of Code 2023 - Day01](https://adventofcode.com/2023/day/1)
