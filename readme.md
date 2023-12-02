@@ -6,7 +6,7 @@ For this year Advent of Code I will try to apply TDD with JS, using Node and Jes
 
 This first challenge took me too long due to 2 big time sinkers.
 
-- The first one being having to fight in order for jest to accept es6 module syntax, in the end I used coomonJs as to be able to advance. -- _As always, one day later all the problems disappear and I managed to clean the code and refactore it to use es6 module syntax_
+- The first one being having to fight in order for jest to accept es6 module syntax, in the end I used coomonJs as to be able to advance. -- _As always, one day later all the problems disappear and I managed to clean the code and refactor it to use es6 module syntax_
 - The second was that I thought that using regex to parse the input given would be quick and easy... as always, regex turns to be a hard mistress. After too many hours sinked in trying to get a working regex to do everything, I decided to just use two simpler rules, one for the start and one for the end.
 
 I tried to apply TDD as best as I could.
