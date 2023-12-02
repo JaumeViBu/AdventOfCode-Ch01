@@ -1,4 +1,4 @@
-const filterValues = require('../trebuchet.js').filterValues;
+import { filterValues } from "../trebuchet.js";
 
 test('filterValues with testData must return the expectedData', () => {
   const givenData = [
