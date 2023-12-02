@@ -1,17 +1,17 @@
-const fs = require("fs")
+import * as fs from 'fs';
 
-function loadValues(path) {
+export function loadValues(path) {
 
   console.log(path)
   const values = fs.readFileSync(path).toString().split("\r\n");
   return values;
 }
 
-function filterValues(values) {
+export function filterValues(values) {
 
   let filtered = [];
 
-  for (str of values) {
+  for (const str of values) {
 
     if (str === '') {
 
@@ -26,13 +26,13 @@ function filterValues(values) {
       backParsedNums = str.slice(i).match(/(one|two|three|four|five|six|seven|eight|nine|\d)/);
       if (backParsedNums) break;
     }
-    res = Number(parseValue(frontParsedNums[0]) + parseValue(backParsedNums[0]))
+    const res = Number(parseValue(frontParsedNums[0]) + parseValue(backParsedNums[0]))
     filtered.push(res);
   }
   return filtered;
 }
 
-function parseValue(value) {
+export function parseValue(value) {
   if (!isNaN(value)) return value;
   const testVal = value.toLowerCase();
   switch (testVal) {
@@ -57,16 +57,12 @@ function parseValue(value) {
   }
 }
 
-module.exports.loadValues = loadValues;
-module.exports.filterValues = filterValues;
-module.exports.parseValue = parseValue;
-
 /*****************************************************************************************************/
 
 // const FILEPATH = './test-input.txt';
 const FILEPATH = './input.txt';
 
-function main() {
+export function main() {
 
   const values = loadValues(FILEPATH);
   const filtered = filterValues(values);

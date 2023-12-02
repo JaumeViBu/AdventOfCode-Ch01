@@ -1,8 +1,8 @@
-const loadValues = require('../trebuchet.js').loadValues;
+import { loadValues } from "../trebuchet.js";
 
 test('loadValues with test-input path, returns the contents of the text-input file', () => {
 
-  expectedReturn = [
+  const expectedReturn = [
     '1abc2',
     'pqr3stu8vwx',
     'a1b2c3d4e5f',

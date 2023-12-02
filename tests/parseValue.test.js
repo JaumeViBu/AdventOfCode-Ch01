@@ -1,4 +1,4 @@
-const parseValue = require('../trebuchet.js').parseValue;
+import { parseValue } from "../trebuchet.js";
 
 test('parseValue must return the numerical value as a string', () => {
   const givenData = ['eight', 'five', 'three', 'three', 'one', '1', 'seven',];
